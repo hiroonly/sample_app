@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
   # GET / => static_pages#home
-  root 'static_pages#index'
+  root 'static_pages#home'
 
   # GET / static_pages/home => static_pages#home
   get  'static_pages/home'
